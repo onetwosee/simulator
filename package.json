@@ -1,0 +1,30 @@
+{
+  "name": "simulator",
+  "version": "0.1.0",
+  "description": "A bookmarklet to convert any OneTwoSee app into a simulation.",
+  "main": "build/simulator.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mobilereactor/simulator.git"
+  },
+  "keywords": [
+    "onetwosee",
+    "simulator"
+  ],
+  "author": "Jmeas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mobilereactor/simulator/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "matchdep": "~0.3.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-less": "~0.9.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-preprocess": "~4.0.0"
+  }
+}

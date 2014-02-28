@@ -1,0 +1,19 @@
+{
+  "name": "simulator",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mobilereactor/simulator",
+  "authors": [
+    "Jmeas <jellyes2@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.0.3"
+  }
+}

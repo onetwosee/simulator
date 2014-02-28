@@ -1,6 +1,6 @@
 function getType() {
 
-q
+  
 
 }
 

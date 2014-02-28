@@ -19,10 +19,14 @@ module.exports = function( grunt ) {
       main: {
         files: {
           expand: true,
-          cwd: 'source/js/sports/',
-          src: '*.js',
+          cwd: 'source/js/',
+          src: 'wrapper.js',
           dest: 'build/'
         }
+      },
+      plain: {
+        src: 'source/js/wrapper.js',
+        dest: 'build/simulator.js'
       }
     }
 
